@@ -19,6 +19,7 @@ $(document).ready(function () {
             clearInterval(distance);
             $(".countdown-holder").css("display", "none");
             $(".countdown-holder").hide();
+            $(".begins").hide();
             $("#launch_div").show();
         }
     }, 1000);

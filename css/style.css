@@ -11,10 +11,12 @@
 
 html {
     font-size: 16px;
+    overflow: hidden;
 }
 
 body {
-    background: linear-gradient(to right, rgb(170, 0, 0), rgb(0, 145, 202));
+    /* background: linear-gradient(to right, rgb(170, 0, 0), rgb(0, 145, 202)); */
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,6 +28,7 @@ body {
 main {
     padding: 5rem 2rem;
     margin: auto;
+    padding-top: 0;
 }
 
 .countdown-holder {
@@ -39,7 +42,7 @@ main {
 }
 
 .countdown-holder div {
-    background: #000;
+    background: #fff;
     width: 8rem;
     text-align: center;
     border-radius: 0.7rem;
@@ -53,13 +56,13 @@ main {
 }
 
 .countdown-holder h1 {
-    color: #fff;
-    font-size: 2.7rem;
+    color: #000;
+    font-size: 60px;
     font-weight: 700;
 }
 .countdown-holder span {
     color: red;
-    
+    font-size: 25px;
 }
 
 form {
@@ -135,4 +138,28 @@ footer p i {
     footer {
         display: none;
     }
+}
+canvas {
+	cursor: crosshair;
+    display: block;
+    height: 100%;
+}
+
+.wishing-text
+{
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #fff;
+    width: 100%;
+}
+.begins
+{
+    color: #fff;
+    text-align: center;
+    font-size: 46px;
+
 }
