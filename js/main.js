@@ -2,7 +2,7 @@ $(document).ready(function () {
     $(".countdown-holder").hide();
     $("#launch_div").hide();
     setTimeout(function () { $(".countdown-holder").show(); }, 900);
-    var launchDate = new Date('Oct 03, 2019 15:10:00').getTime();
+    var launchDate = new Date('Oct 27, 2019 00:00:00').getTime();
     var distance = setInterval(function () {
         var now = new Date().getTime();
         var difference = launchDate - now;
