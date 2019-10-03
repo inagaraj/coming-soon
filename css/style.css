@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Digital';
+    src: url('./../fonts/digital-7.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: linear-gradient(to right, rgb(0, 170, 105), rgb(0, 145, 202));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+main {
+    padding: 5rem 2rem;
+    margin: auto;
+}
+
+.countdown-holder {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-family: 'Digital', sans-serif;
+}
+
+.countdown-holder div {
+    background: #fff;
+    width: 8rem;
+    text-align: center;
+    border-radius: 0.7rem;
+    padding: 1.2rem 1.5rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.25), 0 0.2rem 0.2rem rgba(0, 0, 0, 0.22);
+    margin-bottom: 1.5rem;
+}
+
+.countdown-holder div:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.countdown-holder h1 {
+    color: #00aa69;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+form {
+    width: 30rem;
+    margin: auto;
+    text-align: center;
+}
+
+form p {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: #fff;
+}
+
+form input {
+    outline: none;
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 1rem;
+    width: 15rem;
+    font-size: 1.1rem;
+    border-radius: 0.7rem 0 0 0.7rem;
+}
+
+form button {
+    width: auto;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background: #00aa69;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: -0.5rem;
+    font-size: 1.1rem;
+    border-radius: 0 0.7rem 0.7rem 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+}
+
+footer p {
+    font-style: normal;
+    color: #fff;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+footer p i {
+    color: #e92222;
+}
+
+@media (max-width: 650px) {
+    main {
+        padding: 1rem;
+    }
+    .countdown-holder div:not(:nth-child(1)) {
+        display: none;
+    }
+    form {
+        width: auto;
+    }
+    form p {
+        font-size: 1rem;
+    }
+    footer {
+        display: none;
+    }
+}
