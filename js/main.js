@@ -15,7 +15,6 @@ $(document).ready(function () {
         $("#minutes").html(("0" + minutes).slice(-2));
         $("#seconds").html(("0" + seconds).slice(-2));
         if (difference < 0) {
-            console.log("here");
             clearInterval(distance);
             $(".countdown-holder").css("display", "none");
             $(".countdown-holder").hide();
