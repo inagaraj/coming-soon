@@ -39,7 +39,7 @@ main {
 }
 
 .countdown-holder div {
-    background: #fff;
+    background: #000;
     width: 8rem;
     text-align: center;
     border-radius: 0.7rem;
@@ -53,9 +53,13 @@ main {
 }
 
 .countdown-holder h1 {
-    color: #00aa69;
+    color: #fff;
     font-size: 2.7rem;
     font-weight: 700;
+}
+.countdown-holder span {
+    color: red;
+    
 }
 
 form {
