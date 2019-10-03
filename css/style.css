@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background: linear-gradient(to right, rgb(0, 170, 105), rgb(0, 145, 202));
+    background: linear-gradient(to right, rgb(170, 0, 0), rgb(0, 145, 202));
     display: flex;
     align-items: center;
     justify-content: center;
